@@ -32,10 +32,10 @@ function firstQuestion() {
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-        imageUrl: 'img/logi.gif',
+        imageUrl: 'img/logi.jpg',
         imageWidth: 300,
         imageHeight: 300,
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/bg.jpg")',
         imageAlt: 'Custom image',
         confirmButtonText: CONFIG.btnIntro
     }).then(function() {
@@ -114,7 +114,7 @@ $('#yes').click(function() {
         width: 900,
         padding: '3em',
         html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
-        background: '#fff url("img/iput-bg.jpg")',
+        background: '#fff url("img/bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
               url("img/giphy2.gif")
